@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pase_Presupuesto</title>
+    <style>
+        body {text-align: justify; line-height: 35px;} #encabezado {font-size: 20px; font-weight: bold;}
+        .tg  {border-spacing:0;text-align: justify;}
+        .tg td{border-collapse: collapse; border-color:black;border-style:solid;border-width:1px;
+          overflow:hidden;padding:10px 5px;word-break:normal; text-align:justify;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;
+          font-weight:normal;overflow:hidden;padding:15px 12px;word-break:normal; text-align:justify;}
+        .tg .tg-73oq{border-color:#000000;text-align:justify;vertical-align:top}
+        .verificar {background-color: bisque;}
+    </style>
+</head>
+<body>
+    <p id="referencia"> Remisión a la firma - <span class="numero_expediente"></span> - Pago de Facturas - <span class="nombre_proveedor"></span> - <span class="objeto_tramite"></span> - Período: <span class="periodos_factura"></span>.</p> 
+    <hr>
+    <br>
+    <abbr title="verificar según autoridad firmante"><p id="encabezado" class="verificar" style="text-transform:uppercase"><abbr title="Verifique la autoridad firmante"><b>A LA <span class="area_requirente"></span>:</b></p></abbr>
+    <p>Tengo  el agrado de dirigirme  a Ud. en el expediente de la referencia por el que tramita  un proyecto de acto administrativo por el que se propicia reconocer como Legítimo Abono el gasto y autorizar el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span></p>
+    <p>Al respecto, la Dirección General de Asuntos Jurídicos ha intervenido en el ámbito de sus competencias por medio del Dictamen N° <span class="verificar"><abbr title="complete el número de GDE">[COMPLETAR NÚMERO GDE]</abbr></span>, al que cabe remitirse por razones de brevedad.</p>
+    <p>En virtud de lo expuesto, se remiten las presentes actuaciones junto con el proyecto de acto a los efectos de que, de considerarlo oportuno y conveniente, proceda a la suscripción definitiva del mismo. Sobre el punto, cabe señalar que, previo a la suscripción del referido acto, deberá dar intervención a la Dirección de Gestión Documental y Legalizaciones dependiente de la SUBSECRETARÍA DE GESTIÓN ADMINISTRATIVA a los efectos de que, por su intermedio y en virtud de las acciones que le fueron encomendadas por la Decisión Administrativa N° 1184 de fecha 2 de julio de 2020, realice el control formal del mismo.</p>
+    <p>Sin otro particular, saluda a usted atentamente.</p>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="remision.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pase_Presupuesto</title>
+    <style>
+        body {text-align: justify; line-height: 35px;} #encabezado {font-size: 20px; font-weight: bold;}
+        .tg  {border-collapse: collapse; border-spacing:0;text-align: center;padding:20px 10px}
+        .tg td{border-collapse: collapse; border-color:black;border-style:solid;border-width:2px;
+          overflow:hidden;padding:20px 10px;word-break:normal; text-align:center;}
+        .tg th{border-collapse: collapse;border-color:black;border-style:solid;border-width:2px;
+          font-weight:normal;overflow:hidden;padding:15px 12px;word-break:normal; text-align:center;}
+        .tg .tg-73oq{border-color:#000000;text-align:center;vertical-align:top}
+        .verificar {background-color: bisque;}
+    </style>
+</head>
+<body>
+    <p id="referencia"> Pase a la DGA - <span class="numero_expediente"></span> - Pago de Facturas - <span class="nombre_proveedor"></span> - <span class="objeto_tramite"></span> - Período: <span class="periodos_factura"></span>.</p> 
+    <hr>
+    <br>
+    <p id="encabezado"><b>A LA DIRECCIÓN GENERAL DE ADMINISTRACIÓN:</b></p>
+    <p>Tengo  el agrado de dirigirme  a Ud. en el expediente de la referencia por el que tramita el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span></p>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-73oq"><b>Número de  Factura</b></th>
+        <th class="tg-73oq"><b>Período</b></th>
+        <th class="tg-73oq"><b>Importe</b></th>
+      </tr>
+    </thead>
+    <tbody id="tablebody">
+      <tr>
+      </tr>
+    </tbody>
+    </table>
+    <p>Al respecto, los antecedentes de la cuestión fueron detallados por la <span class="area_requirente"></span> en <span class="tipo_informe_fundante"></span> N° <span class="gde_informe_fundante"></span> y por esta Dirección de Compras y Suministros en su Providencia N° <span class="verificar"><abbr title="complete el número de GDE">[COMPLETAR NÚMERO GDE]</abbr></span>, intervenciones a las cuales cabe remitirse por razones de brevedad.</p>
+    <p>A su vez, cabe informar que por medio de la intervención obrante en el orden <span class="verificar"><abbr title="complete el número de orden de la constancia">[COMPLETAR NÚMERO ORDEN]</abbr></span>, la Dirección de Programación y Control Presupuestario certificó la existencia de crédito presupuestario <span class="anio_actual"></span> para afrontar las erogaciones que se originan en la medida propiciada. </p>
+    <p>En este orden de ideas, por medio de la <span class="verificar"><abbr title="complete el número de GDE del acto administrativo firmado">[COMPLETAR NÚMERO GDE DEL ACTO]</abbr></span> la <abbr class="verificar" title="verificar la autoridad firmante"><span class="area_requirente"></span></abbr> reconoció el gasto y autorizó el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span>, en función de lo expuesto en los considerandos de la medida</p>
+    <p>En virtud de lo expuesto, se eleva el presente cuerpo administrativo a efectos de que, en caso de considerarlo oportuno, se giren las actuaciones a la Dirección de Contabilidad y Finanzas a los fines de continuar el trámite de pago de la citada medida.</p>
+    <p>Por último, a modo de colaboración se informa los datos resultantes del Sistema E-SIDIF del proveedor en cuestión:</p>
+    <ul>
+        <li><b>Denominación de beneficiario:</b> <span class="nombre_proveedor"></span></li>
+        <li><b>N° de beneficiario:</b> <span class="numero_beneficiario"></span></li>
+        <li><b>Cuenta bancaria:</b> <span class="cuenta_bancaria"></span></li>
+    </ul>
+    <p>Sin otro particular, saluda a usted atentamente.</p>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="dga.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pase_Presupuesto</title>
+    <style>
+        body {text-align: justify; line-height: 35px;} #encabezado {font-size: 20px; font-weight: bold;}
+        .tg  {border-spacing:0;text-align: justify;}
+        .tg td{border-collapse: collapse; border-color:black;border-style:solid;border-width:1px;
+          overflow:hidden;padding:10px 5px;word-break:normal; text-align:justify;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;
+          font-weight:normal;overflow:hidden;padding:15px 12px;word-break:normal; text-align:justify;}
+        .tg .tg-73oq{border-color:#000000;text-align:justify;vertical-align:top}
+        .verificar {background-color: bisque;}
+    </style>
+</head>
+<body>
+    <p id="referencia"> Pase a Jurídicos - <span class="numero_expediente"></span> - Pago de Facturas - <span class="nombre_proveedor"></span> - <span class="objeto_tramite"></span> - Período: <span class="periodos_factura"></span>.</p> 
+    <hr>
+    <br>
+    <p id="encabezado"><b>A LA DIRECCIÓN GENERAL DE ASUNTOS JURÍDICOS:</b></p>
+    <p>Tengo  el agrado de dirigirme  a Ud. en el expediente de la referencia por el que tramita  un proyecto de acto administrativo por el que se propicia reconocer como Legítimo Abono el gasto y autorizar el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span></p>
+    <p>Al respecto, los antecedentes de la cuestión fueron detallados por la <span class="area_requirente"></span> en <span class="tipo_informe_fundante"></span> N° <span class="gde_informe_fundante"></span> y por esta Dirección de Compras y Suministros en su Providencia N° <span class="verificar"><abbr title="complete el número de GDE">[COMPLETAR NÚMERO GDE]</abbr></span>, intervenciones a las cuales cabe remitirse por razones de brevedad.</p>
+    <p>A su vez, cabe informar que por medio de la intervención obrante en el orden <span class="verificar"><abbr title="complete el número de orden de la constancia">[COMPLETAR NÚMERO ORDEN]</abbr></span>, la Dirección de Programación y Control Presupuestario certificó la existencia de crédito presupuestario <span class="anio_actual"></span> para afrontar las erogaciones que se originan en la medida propiciada. </p>
+    <p>Por su parte, cabe señalar que conforme surge de la constancia del Sistema Electrónico de Contrataciones de la Administración Nacional “COMPR.AR” obrante en el <span class="verificar"><abbr title="complete el número de orden de la constancia">[COMPLETAR NÚMERO ORDEN]</abbr></span>, <span class="nombre_proveedor"></span> <span class="verificar"><abbr title="complete con SI o con NO según corresponda"> <b>SI/NO</b> </abbr></span> se encuentra en estado “Inscripto” en el Sistema de Información de Proveedores (SIPRO) </p>
+    <p>Adicionalmente, se informa que conforme surge de la constancia del COMPR.AR obrante en el orden <span class="verificar"><abbr title="complete el número de orden de la constancia">[COMPLETAR NÚMERO ORDEN]</abbr></span>, en el marco de lo previsto en el Decreto N° 1.023/01, sus modificatorios y complementarios, el Reglamento aprobado por el Decreto N° 1.030/16 y la Resolución General N° 4164/17 de la Administración Federal de Ingresos Públicos (AFIP), <span class="nombre_proveedor"></span> <span class="verificar"><abbr title="complete con SI o con NO según corresponda"> <b> SI/NO </b> </abbr></span> posee deuda líquida y exigible o previsional ante la AFIP.</p>
+    <p>En virtud de todo lo expuesto, se remiten las presentes actuaciones junto con un proyecto de acto administrativo a los fines de que la Dirección General a su cargo tome la intervención de su competencia.</p>
+    <p>Sin otro particular, saluda a usted atentamente.</p>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="juridicos.js" type="module"></script>
+</body>
+</html>

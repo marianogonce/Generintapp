@@ -1,0 +1,116 @@
+body {
+  background-color: #ececec;
+  background-size: 100%;
+  font-family: arial;
+  padding: 40px;
+  padding-top: 10px;
+  margin: 10px;
+  letter-spacing: 1.5px;
+  font-family: gadugi;
+}
+
+h1 {
+  background-color: #343a40;
+  letter-spacing: 0.01px;
+  margin: 0;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 17px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  box-shadow: gray;
+}
+
+#tramite_seleccionado li {
+  font-weight: bold;
+  color: rgb(94, 93, 165);
+  font-size: 20px;
+  list-style: none;
+  display: block;
+}
+
+#tramite_seleccionado {
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+ul {
+  display: inline-block;
+  list-style: circle;
+  margin: 2px;
+}
+
+h4 {
+  color: rgb(144, 144, 144);
+}
+
+#advertencia {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 17px;
+  background-color: rgb(243, 103, 103);
+}
+
+#PasePresupuesto,
+#ActoAdmnistrativo,
+#PaseJuridico,
+#RemisionFirma,
+#PaseDGA {
+  color: #ffffff;
+  padding: 8px;
+  display: none;
+  margin: 6px;
+  box-shadow: 2px 2px 2px 1px rgba(182, 181, 181, 0.4);
+}
+
+#PasePresupuesto {
+  background-color: #6faa76;
+}
+
+#ActoAdmnistrativo {
+  background-color: #528f8f;
+}
+
+#PaseJuridico {
+  background-color: #6e81af;
+}
+
+#RemisionFirma {
+  background-color: #bba978;
+}
+
+#PaseDGA {
+  background-color: #8d609b;
+}
+
+h5:hover {
+  cursor: pointer;
+}
+
+#inlineFrame {
+  margin: 17px;
+  background-color: white;
+}
+
+#tramite_seleccionado li:hover {
+  color: rgb(173, 21, 16);
+  list-style: none;
+}
+
+@media (hover: hover) {
+  .no_seleccionado:hover,
+  .seleccionado:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(94, 159, 202);
+    list-style: none;
+  }
+}

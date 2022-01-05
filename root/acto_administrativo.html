@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pase_Presupuesto</title>
+    <style>
+        body {text-align: justify; line-height: 35px;} #encabezado {font-size: 20px; font-weight: bold;}
+        .tg  {border-spacing:0;text-align: justify;}
+        .tg td{border-collapse: collapse; border-color:black;border-style:solid;border-width:1px;
+          overflow:hidden;padding:10px 5px;word-break:normal; text-align:justify;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;
+          font-weight:normal;overflow:hidden;padding:15px 12px;word-break:normal; text-align:justify;}
+        .tg .tg-73oq{border-color:#000000;text-align:justify;vertical-align:top}
+        .verificar {background-color: bisque;}
+    </style>
+</head>
+<body>
+    <p id="referencia">Proyecto de Acto Administrativo - <span class="numero_expediente"></span> - Pago de Facturas - <span class="nombre_proveedor"></span> - <span class="objeto_tramite"></span> - Período: <span class="periodos_factura"></span>.</p> 
+    <hr>
+    <br>
+    <p>VISTO el Expediente Nº <span class="numero_expediente"></span>, la Ley de Administración Financiera y de los Sistemas
+        de Control del Sector Público Nacional Nº 24.156 y sus modificatorias, el Decreto Nº 1344 de fecha 4 de octubre
+        de 2007 y sus modificatorios, y</p>
+    <p>CONSIDERANDO:</p>
+    <p>Que mediante el expediente citado en el Visto se propicia reconocer como Legítimo Abono el gasto y autorizar el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span></p>
+    <p>Que por la Providencia N° <span class="verificar"><abbr title="complete el número de GDE">[COMPLETAR NÚMERO GDE]</abbr></span> esta <span class="area_requirente"></span> prestó conformidad al servicio efectuado por el referido proveedor durante el período referenciado.</p>
+    <p>Que en efecto, la facturación mencionada no cuenta con respaldo contractual, siendo que el servicio en cuestión era prestado por el proveedor <span class="proveedor_antecedente"></span>, en el marco de la Orden de Compra N° <span class="oc_antecedente"></span>, la cual operó su vencimiento el <span class="fecha_vencimiento_oc_antecedente"></span>.</p>
+    <p id="parrafo_antecedente">Que la Dirección de Compras y Suministros se encuentra sustanciando por medio del Expediente N° <span class="expediente_proceso_regularizador"></span>, el Proceso de Compra N° <span class="numero_proceso_regularizador"></span>, el cual se encuentra en estado de <span class="estado_proceso_regularizador"></span>.</p>
+    <p id="perfeccionado"></p>
+    <p>Que sin perjuicio de ello, por <span class="tipo_informe_fundante"></span> N° <span class="gde_informe_fundante"></span>, la <span class="area_requirente"></span> propició el pago de <span class="cantidad_factura"></span> correspondiente al servicio referido, considerando que el proveedor <span class="nombre_proveedor"></span> continuó prestando dicho servicio por los motivos allí explicitados brindado durante el período que va desde el <span class="periodos_factura"></span>.</p>
+    <p><abbr class="verificar" title="agregar considerandos que detallen lo referido en el informe fundante">[Agregar considerandos que detallen el contenido del informe fundante, en particular los requisitos de procedencia del legítimo abono]</abbr></p>
+    <p>Que la Dirección de Programación y Control Presupuestario ha intervenido en el ámbito de sus competencias,
+        certificando la existencia de crédito presupuestario <span class="anio_actual"></span> para afrontar las erogaciones que se originan en la
+        medida propiciada.</p>
+    <p>Que la Dirección General de Asuntos Jurídicos dependiente de la SUBSECRETARÍA DE GESTIÓN
+        ADMNISTRATIVA ha intervenido en el ámbito de sus competencias.</p>
+    <p>Que la presente medida se dicta de conformidad con las facultades conferidas por el artículo 35, <span class="verificar"><abbr title="verifique inciso b) o c) en función de las partidas involucradas" >inciso b)</span> del
+        Anexo del Decreto N° 1344 de fecha 4 de octubre de 2007 y sus modificatorios.</p>
+    <p>Por ello,</p>
+    <div style="width:100%">
+        <p class="verificar" style="text-transform:uppercase; text-align:center"><abbr title="Verifique la autoridad firmante">LA <span class="area_requirente"></span></abbr></p>
+        <p class="verificar" style="text-transform:uppercase; text-align:center"><abbr title="Verifique si corresponde DISPONE o RESUELVE en función de la autoridad firmante">DISPONE:</abbr></p>
+    </div>
+    <p>ARTÍCULO 1º.- Reconócese como Legítimo Abono el gasto y autorízase el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span> por un total de <span class="total_expediente" ></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span>, en función de todo lo expuesto en los considerandos de la presente medida.</p>
+    <p>ARTÍCULO 2º.- El importe total de la presente disposición será imputado a las partidas específicas de la Jurisdicción 30 - MINISTERIO DEL INTERIOR.</p>
+    <p>ARTÍCULO 3°.- Comuníquese y archívese.</p>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="acto_administrativo.js" type="module"></script>
+</body>
+</html>

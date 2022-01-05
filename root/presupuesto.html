@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pase_Presupuesto</title>
+    <style>
+        body {text-align: justify; line-height: 35px;} #encabezado {font-size: 20px; font-weight: bold;}
+        .tg  {border-collapse: collapse; border-spacing:0;text-align: center;}
+        .tg td{border-collapse: collapse; border-color:black;border-style:solid;border-width:2px;
+          overflow:hidden;padding:20px 10px;word-break:normal; text-align:center;}
+        .tg th{border-collapse: collapse;border-color:black;border-style:solid;border-width:2px;
+          font-weight:normal;overflow:hidden;padding:15px 12px;word-break:normal; text-align:center;}
+        .tg .tg-73oq{border-color:#000000;text-align:center;vertical-align:top}
+    </style>
+</head>
+<body>
+    <p id="referencia">Pase a Presupuesto - <span class="numero_expediente"></span> - Pago de Facturas - <span class="nombre_proveedor"></span> - <span class="objeto_tramite"></span> - Período: <span class="periodos_factura"></span>.</p> 
+    <hr>
+    <br>
+    <p id="encabezado"><b>A LA DIRECCIÓN DE PROGRAMACIÓN Y CONTROL PRESUPUESTARIO:</b></p>
+    <p>Tengo el agrado de dirigirme a Ud. en el expediente de la referencia por el que tramita el pago de <span class="cantidad_factura"></span> <span class="numero_factura"></span>, presentadas por el proveedor <span class="nombre_proveedor"></span> (CUIT:<span class="cuit"></span>), en virtud del servicio de <span class="objeto_tramite"></span>, brindado durante el período que va desde el <span class="periodos_factura"></span>.</p>
+    <p><b>Detalle:</b></p>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-73oq"><b>Número de  Factura</b></th>
+        <th class="tg-73oq"><b>Período</b></th>
+        <th class="tg-73oq"><b>Importe</b></th>
+      </tr>
+    </thead>
+    <tbody id="tablebody">
+      <tr>
+      </tr>
+    </tbody>
+    </table>
+    <p>Al respecto, los antecedentes de la cuestión fueron detallados por la <span class="area_requirente"></span> en <span class="tipo_informe_fundante"></span> N° <span class="gde_informe_fundante"></span>, intervención a la cual cabe remitirse por razones de brevedad.</p>
+    <p>En efecto, la facturación detallada no cuenta con respaldo contractual, siendo que el servicio en cuestión era prestado por el proveedor <span class="proveedor_antecedente"></span>, en el marco de la Orden de Compra N° <span class="oc_antecedente"></span>, la cual operó su vencimiento el <span class="fecha_vencimiento_oc_antecedente"></span>.</p>
+    <p id="parrafo_antecedente">En este sentido, se informa que esta Unidad Operativa de Contrataciones se encuentra sustanciando por medio del Expediente N° <span class="expediente_proceso_regularizador"></span>, el Proceso de Compra N° <span class="numero_proceso_regularizador"></span>, el cual se encuentra en estado de <span class="estado_proceso_regularizador"></span>.</p>
+    <p>Sin perjuicio de ello, por <span class="tipo_informe_fundante"></span> N° <span class="gde_informe_fundante"></span>, la <span class="area_requirente"></span> propició el pago de <span class="cantidad_factura"></span> correspondiente al servicio referido, considerando que el proveedor <span class="nombre_proveedor"></span> continuó prestando dicho servicio por los motivos allí explicitados.</p>
+    <p>En virtud de lo expuesto, se remiten las presentes actuaciones a fin de que, en caso de corresponder, vuestra Dirección de Programación y Control Presupuestario certifique la existencia de crédito presupuestario <span class="anio_actual"></span> para propiciar el pago de la medida en análisis.</p>
+    <p>Sin otro particular, saluda a usted atentamente.</p>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="presupuesto.js" type="module"></script>
+</body>
+</html>

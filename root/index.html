@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title id="app">Generador de Intervenciones - Legítimos Abonos</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <div>
+      <h1> GenerInt - Legítimos Abonos</h1>
+      <h2>Seleccione el Trámite</h2>
+      <ul></ul>
+      <h2>Trámite Seleccionado</h2>
+      <ul id='tramite_seleccionado'></ul>
+  </div>
+  <h4 id="advertencia"></h4>
+  <div id="botonera">
+  <h5 id="PasePresupuesto" ></h5>
+  <h5 id="ActoAdmnistrativo" ></h5>
+  <h5 id="PaseJuridico" ></h5>
+  <h5 id="RemisionFirma" ></h5>
+  <h5 id="PaseDGA" ></h5>
+  </div>
+  <iframe id="inlineFrame"
+    title="Inline Frame"
+    width="96%"
+    height="400"
+    src="blank.html">
+</iframe>
+  <h4 id="using">We are using Node.js <span id="node-version"></span>, 
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span></h4>
+  <h6 style="text-align: justify;">
+    <p style="font-size: 15px;"><b>Copyright &#169 2021, Mariano Goncevatt Torres - e-mail: <E-mail address><u><a href="mailto:marianogoncevatt@gmail.com">marianogoncevatt@gmail.com</a></u></E-mail><b></p>
+    <p>Permission to use, copy, modify, and/or distribute this software for any
+      purpose with or without fee is hereby granted, provided that the above
+      copyright notice and this permission notice appear in all copies.</p>
+    <p>THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+      WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+      MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+      ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+      WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+      ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+      OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+</h6>
+    <script src="..\node_modules\axios\dist\axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

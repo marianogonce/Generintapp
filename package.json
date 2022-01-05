@@ -1,0 +1,33 @@
+{
+  "name": "generint",
+  "version": "1.0.0",
+  "description": "Aplicación para generar intervenciones administrativas a partir de una consulta de una base de datos access en formato xml",
+  "main": "root/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariano Goncevatt Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "electron-builder": "^22.14.5"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "electron-packager": "^15.4.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "xml2js": "^0.4.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianogonce/FileCreatorApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marianogonce/FileCreatorApp/issues"
+  },
+  "homepage": "https://github.com/marianogonce/FileCreatorApp#readme"
+}
